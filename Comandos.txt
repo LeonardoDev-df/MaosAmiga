@@ -1,0 +1,63 @@
+cd Documents
+
+cd GitHub
+
+cd ExpenseManager 
+
+----------------------------------------------
+npx create-expo-app my-app
+
+para criar aplicativo react native com expo
+
+-----------------------------------------------
+
+npx expo start 
+
+inicializar o app no prompt de comando
+
+-----------------------------------------------
+gerar apk
+
+eas build -p android --profile preview
+
+-------------------------------------------
+
+
+ java -jar bundletool-all-1.15.6.jar build-apks --bundle=filename.aab --output=output.apks --mode=universal
+
+
+yarn add firebase@9.8.2
+
+
+login home
+
+/*signInWithEmailAndPassword(auth, email, password)
+    .then((userCredential) => {
+      //console.log('Signed in!')
+      const user = userCredential.user;
+      //console.log(email)
+      //navigation.navigate('Home');
+      //navigation.navigate('admin');
+      //console.log("Deu tudo certo")
+
+      if ( email === 'adm@adm.com') {
+        navigation.navigate('admin');
+      } else {
+        navigation.navigate('users');
+      } 
+    })
+    .catch(error => {
+      console.log(error)
+      alert('Usuário desconhecido. Por favor, insira "admin" ou "users".');
+    })
+
+*/
+
+
+expenseManager mostra foto
+
+ {photoProof && <Image source={{ uri: photoProof }} style={styles.previewImage} />}
+
+Seu novo acesso a plataforma Teams: (caso tenha feito o primeiro acesso desconsiderar a senha)
+Usuário: 35953@unbidiomas.unb.br
+Senha: unb@idiomas2023
